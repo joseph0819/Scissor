@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Reem+Kufi:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative cursor-pointer
+}
+.badge{
+    @apply uppercase bg-secondary-100 text-secondary-200 font-bold rounded-full p-2 mt-2 ml-2 text-sm absolute top-0
+}
+.btn{
+    @apply uppercase text-sm font-bold rounded-full cursor-pointer tracking-wide py-2 px-4
+}
